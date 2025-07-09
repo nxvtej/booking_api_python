@@ -1,7 +1,9 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI
 from routes import router
 from db import seed_data
-from server import logging
+import logging
+
+logging.basicConfig(level=logging.INFO)
 
 app = FastAPI(title='Hey this is my Booking API Assignment')
 
