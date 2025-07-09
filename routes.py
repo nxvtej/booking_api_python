@@ -33,10 +33,10 @@ def book_class(payload:BookingRequest = Body(...)):
     selected_class = next((c for c in classes if c["id"] == payload.class_id), None)
 
     if not selected_class:
-        raise HTTPException(status_code=400, detail='Class not found')
+        raise HTTPException(status_code=404, detail='class not found')
     
     if selected_class["available_slots"] <= 0:
-        raise HTTPException(status_code=400, detail='No slots are available')
+        raise HTTPException(status_code=404, detail='No slots are available')
 
     selected_class["available_slots"] -= 1
 
