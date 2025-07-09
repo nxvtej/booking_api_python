@@ -5,7 +5,7 @@
       "name": "Yoga",
       "datetime": "2025-07-09T10:00:00",
       "instructor": "Riya",
-      "available_slots": 8
+      "available_slots": 7
     },
     {
       "id": 2,
@@ -31,6 +31,12 @@
     },
     {
       "id": "2c67fa75-d2dd-46e8-a1b1-67dae6821d93",
+      "class_id": 1,
+      "client_name": "Navtej Singh",
+      "client_email": "navtej@example.com"
+    },
+    {
+      "id": "3f62ec60-ff70-443f-8e3c-5f2f3ed117f9",
       "class_id": 1,
       "client_name": "Navtej Singh",
       "client_email": "navtej@example.com"

@@ -32,11 +32,11 @@ pip install -r requirements.txt
 uvicorn app.server:app --reload
 
 # for classes
-curl http://localhost:8000/classes
+curl "http://localhost:8000/classes?timezone=Asia/Kolkata"
 
 # for book
 curl -X POST http://localhost:8000/book -H "Content-Type: application/json" -d "{\"id\":1 ,\"class_id\": 1, \"client_name\": \"John Doe\", \"client_email\": \"john@example.com\"}"
 
-# for classes
-curl "http://localhost:8000/classes?timezone=Asia/Kolkata"
+# for bookings
+curl http://localhost:8000/bookings
 ```
