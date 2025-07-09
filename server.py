@@ -5,8 +5,10 @@ from db import seed_data
 app = FastAPI(title='Hey this is my Booking API Assignment')
 
 @app.on_event("startup")
-def create_seeds():
+def startup_event():
+    print("🔁 Seeding data on startup...")
     seed_data()
+    print("✅ Seeding complete.")
 
 @app.get("/")
 def welcome():
