@@ -1,0 +1,87 @@
+{
+  "classes": [
+    {
+      "id": 1,
+      "name": "Yoga",
+      "datetime": "2025-07-09T10:00:00",
+      "instructor": "Riya",
+      "available_slots": 0
+    },
+    {
+      "id": 2,
+      "name": "Zumba",
+      "datetime": "2025-07-09T12:00:00",
+      "instructor": "Amit",
+      "available_slots": 15
+    },
+    {
+      "id": 3,
+      "name": "HIIT",
+      "datetime": "2025-07-09T14:00:00",
+      "instructor": "Neha",
+      "available_slots": 8
+    }
+  ],
+  "bookings": [
+    {
+      "id": "43fcbd3e-be86-4b52-a7df-96ede19a5538",
+      "class_id": 1,
+      "client_name": "Navtej Singh",
+      "client_email": "navtej@example.com"
+    },
+    {
+      "id": "8d205a32-6f23-4d99-b120-189222f582de",
+      "class_id": 1,
+      "client_name": "Navtej Singh",
+      "client_email": "navtej@example.com"
+    },
+    {
+      "id": "3e616728-9c9c-47fc-b4cd-a980f1047264",
+      "class_id": 1,
+      "client_name": "Navtej Singh",
+      "client_email": "navtej@example.com"
+    },
+    {
+      "id": "964ea461-2ea5-4cc0-948a-0d6c6fea0ece",
+      "class_id": 1,
+      "client_name": "Navtej Singh",
+      "client_email": "navtej@example.com"
+    },
+    {
+      "id": "5d15444a-da6c-4b9d-843d-bb817624bbcb",
+      "class_id": 1,
+      "client_name": "Navtej Singh",
+      "client_email": "navtej@example.com"
+    },
+    {
+      "id": "2d0519b1-2fcc-46cf-86ae-f0f679aaaac2",
+      "class_id": 1,
+      "client_name": "Navtej Singh",
+      "client_email": "navtej@example.com"
+    },
+    {
+      "id": "1eabf8bb-48e9-4b5e-9fbd-afe7621d8b9b",
+      "class_id": 1,
+      "client_name": "Navtej Singh",
+      "client_email": "navtej@example.com"
+    },
+    {
+      "id": "6f49f6ba-87a9-4ee1-ba68-7c39d0b07f56",
+      "class_id": 1,
+      "client_name": "Navtej Singh",
+      "client_email": "navtej@example.com"
+    },
+    {
+      "id": "abd21aff-28e1-4e14-a2c1-7fed540f170c",
+      "class_id": 1,
+      "client_name": "Navtej Singh",
+      "client_email": "navtej@example.com"
+    },
+    {
+      "id": "e77caf5a-7d6c-41b5-bf30-8ddab0030589",
+      "class_id": 1,
+      "client_name": "Navtej Singh",
+      "client_email": "navtej@example.com"
+    }
+  ]
+}
